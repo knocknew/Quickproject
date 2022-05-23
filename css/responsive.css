@@ -1,0 +1,105 @@
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ /*css start*/
+.container{
+	width: 100%;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-6{
+	width:100%;
+	float: left;
+}
+.col-4{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.header .menu{
+
+}
+.menu li a{
+	    margin: 0px 0px 0px 15px;
+}
+.footer{
+	float:right ;
+}
+
+ /*css end*/
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS START */
+  .container{
+	width: 100%;
+	
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-6{
+	width:100%;
+	float: left;
+}
+.col-4{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.header .menu{
+
+}
+.menu li a{
+	    margin: 0px 0px 0px 15px;
+}
+.footer{
+	float:right ;
+}
+}
+  /* CSS END */
+  
+}
+  
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS start */
+  .container{
+	width:80%;
+	
+}
+	
+.footer{
+	float:right ;
+}
+
+  /* CSS end */
+  
+}
+
+
+
